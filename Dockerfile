@@ -10,4 +10,4 @@ ENV PATH $PATH:$JAVA_HOME/bin
 
 #compile
 RUN javac HelloWorld.java
-ENTRYPOINT javac HelloWorld
+ENTRYPOINT javac HelloWorld.java
