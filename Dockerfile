@@ -1,7 +1,7 @@
 # Linux image 
 FROM alpine
-WORKDIR /root/hello-world
-COPY HelloWorld.java /root/hello-world
+WORKDIR /app
+COPY HelloWorld.java /app
 
 # install JDK
 RUN apk add openjdk8
